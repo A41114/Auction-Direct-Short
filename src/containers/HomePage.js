@@ -292,7 +292,7 @@ class HomePage extends Component {
                     <ToastContainer />
                     <div className='auction-direct'>
                         <div className='company-title-container'>
-                            <div className='company-title'>Công ty đấu giá hợp danh Vna</div>
+                            <div className='company-title'>Công ty Đấu giá hợp danh VNA</div>
                         </div>
                         <div className='auction-direct-top'>
                             <div className='property-name-container'>
@@ -310,11 +310,11 @@ class HomePage extends Component {
                             </div>
                             <div className='property-name-info-container'>
                                 <div className='starting-price-container'>
-                                    <div className='sub-property-title'>Đơn giá khởi điểm (đồng/m²):</div>
+                                    <div className='sub-property-title'>Đơn giá khởi điểm (đồng):</div>
                                     <input className='sub-property-info-input' value={this.formatNumber(this.state.startingPrice)} placeholder='Nhập giá khởi điểm' disabled={this.state.isDisable} onChange={(event)=>this.handleOnChangeInput(event, 'startingPrice')}></input>
                                 </div>
                                 <div className='step-container'>
-                                    <div className='sub-property-title'>Bước giá (đồng/m²):</div>
+                                    <div className='sub-property-title'>Bước giá (đồng):</div>
                                     <input className='sub-property-info-input' value={this.formatNumber(this.state.step)} placeholder='Nhập bước giá' disabled={this.state.isDisable} onChange={(event)=>this.handleOnChangeInput(event, 'step')}></input>
                                 </div>
                             </div>
